@@ -7,7 +7,7 @@ class MyUserr extends StatelessWidget {
     required this.iImage,
       required this.nName,
       required this.gGmail,
-})
+});
 
   @override
   Widget build(BuildContext context) {
@@ -18,8 +18,8 @@ class MyUserr extends StatelessWidget {
               Container(
                 height: 110,
                 width: double.infinity,
-                color: Colors.white70,
-                child: const Row(
+                color: Colors.white,
+                child: Row(
                   children: [
                     Padding(
                       padding: EdgeInsets.all(8.0),
