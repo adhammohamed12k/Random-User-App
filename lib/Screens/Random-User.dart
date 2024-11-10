@@ -49,7 +49,7 @@ class MyUser extends StatelessWidget {
                 ],
               ),
             ),
-            const SizedBox(height: 20,),
+            const SizedBox(height: 30,),
             Container(
               height: 110,
               width: double.infinity,
